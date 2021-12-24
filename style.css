@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+button {
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    -webkit-transition: filter 0.5s ease-out;
+    -moz-transition: filter 0.5s ease-out;
+    -o-transition: filter 0.5s ease-out;
+    transition: filter 0.5s ease-out;
+    filter: drop-shadow(0 0 0rem black);
+}
+
+button:hover {
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+  
